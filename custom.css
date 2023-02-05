@@ -1,0 +1,103 @@
+.bg-blue {
+  background-color: #0b436b;
+}
+
+.white {
+  color: white;
+}
+.main-font {
+  font-family: anantasorn;
+}
+
+.navbar-nav li a {
+  color: white;
+}
+
+.navbar-nav li a:hover {
+  color: #6688A1;
+}
+
+.navbar-nav .nav-link.active {
+  color: gray;
+}
+
+.content {
+  height: 1700px;
+}
+
+.img-header {
+  background-color: white;
+  background-image: url('/assets/main-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 10%;
+  min-height: 500px;
+}
+
+.bg-map {
+  background-color: white;
+  background-image: url('/assets/map-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 10%;
+  min-height: 500px;
+}
+
+.bg-content3 {
+  background-color: white;
+  background-image: url('/assets/bg-content3.jpg');
+  background-repeat: no-repeat;
+  background-size: 700px 1000px;
+  background-position: top;
+  /* max-width: 400px; */
+}
+
+.container-content {
+  width: 60%;
+  margin: auto;
+}
+
+.container-fluid {
+  padding-right: 0;
+  /*15px in bootstrap.css*/
+  padding-left: 0;
+  /*idem*/
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.space {
+  height: 360px;
+}
+.space-bottom {
+  height: 100px;
+}
+
+.facility-text {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.clip-img-left {
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+}
+
+.clip-img-right {
+  clip-path: polygon(0 0, 100% 20%, 100% 80%, 0 100%);
+}
+hr {
+  opacity: 100;
+}
+@font-face {
+  font-family: anantasorn;
+  src: url(/assets/fonts/Anantason-Regular.ttf);
+}
+
+hr.bottom {
+  border-top: 2px solid #c2b7a3; 
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #c2b7a3 !important;
+  border: none;
+}
