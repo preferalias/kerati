@@ -97,23 +97,26 @@
 }
 
 .project-image1 {
-  background-color: black;
-  height: 100px;
+  background-color: white;
   background-image: url('/assets/project-1.png');
-  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .project-image2 {
-  background-color: black;
-  height: 100px;
+  background-color: white;
   background-image: url('/assets/project-2.png');
-  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .project-image3 {
-  background-color: black;
-  height: 100px;
+  background-color: white;
   background-image: url('/assets/project-3.png');
-  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .project-banner-right {
