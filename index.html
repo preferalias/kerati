@@ -30,7 +30,47 @@
 
 
   <!-- NavBar -->
-  <nav class="navbar fixed-top navbar-expand-lg bg-blue main-font p-0 m-0" id="main">
+  <div class="container-fluid img-header hide-mobile">
+    <nav class="navbar navbar-expand-lg bg-blue main-font p-0 m-0 pt-3" id="main">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/nav-bar-logo-desktop.png" alt="" class="d-inline-block align-text-top m-0 nav-bar-logo">
+        </a>
+        <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:blue; font-size:28px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav auto mb-0 mb-lg-0 ms-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" aria-current="page" href="#main">หน้าแรก</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#about-us">เกี่ยวกับเรา</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-3 dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                โครงการ
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/project-1.html">กีรติบางแสน</a></li>
+                <li><a class="dropdown-item" href="/project-2.html">กีรติบ้านสวน</a></li>
+                <li><a class="dropdown-item" href="/project-3.html">กีรติ 33</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="/index.html#contact-us">ติดต่อ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- mobile -->
+  <nav class="show-mobile navbar navbar-expand-lg bg-blue main-font p-0 m-0" id="main">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="/assets/nav-bar-logo.jpg" alt="" class="d-inline-block align-text-top m-0 nav-bar-logo">
@@ -66,10 +106,34 @@
       </div>
     </div>
   </nav>
-  <div class="container-fluid">
+
+  <div class="container-fluid hide-mobile">
+    <div class="bg-blue pt-5 pb-5" id="about-us">
+      <div class="container white main-font container-80">
+        <div class="row align-items-center">
+          <div class="col-6 text-left">
+            <img src="/assets/main-text-logo.jpg" class="main-content-logo p-0 m-0" />
+          </div>
+          <div class="col-6 ps-lg-5 border-start">
+            <div class="ms-5 ps-lg-5" style="width:400px;">
+              <p class="fs-4 fw-light mb-2">"สร้างบ้านให้เป็นความภูมิใจสูงสุดของลูกบ้านที่ฝันจะมีบ้าน"</p>
+              <p class="fs-6 fw-light">เราต้องการสร้างสังคมที่มีคุณภาพในทุกๆ ด้าน
+                ทั้งเรื่องตัวโครงสร้างบ้านไปจนถึงคุณภาพในการใช้ชีวิตของลูกบ้าน ให้ตอบโจทย์ทุกรายละเอียดของการใช้ชีวิต
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile-->
+  <div class="container-fluid show-mobile">
     <div class="img-header"></div>
   </div>
-  <div class="container-fluid">
+
+  <!-- mobile -->
+  <div class="container-fluid show-mobile">
     <div class="bg-blue pt-5 pb-5" id="about-us">
       <div class="container white main-font container-80">
         <div class="row align-items-center">
@@ -88,8 +152,134 @@
   </div>
 
   <!-- container 3 -->
-  
-  <div class="container-fluid">
+
+  <div class="container-fluid hide-mobile">
+    <div class="bg-content3">
+      <div class="container container-80">
+        <div class="space"></div>
+          <div class="row">
+            <div class="col-6 ps-lg-5">
+              <h1 class="facility-text mb-2 ms-lg-5 ps-4" style="font-size: 50px;">FACILITY &</h1>
+              <h1 class="facility-text mb-2 ms-lg-5 ps-4" style="font-size: 50px;">SERVICE</h1>
+            </div>
+            <div class="col-6" style="padding-top:10px;">
+              <p class="main-font ps-5" style="font-size: larger; margin-bottom: 100px; width: 490px;">พื้นที่ส่วนกลางที่ออกแบบให้เข้ากับธรรมชาติ เพื่อสุนทรียภาพแห่งการผ่อนคลาย
+                พร้อมสิ่งอำนวยความสะดวกครบครัน รองรับทุกกิจกรรมออกกำลังกายและพักผ่อนหย่อนใจ</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="mt-5 mb-2 img-chain">
+        <div class="img-chain-wrapper-1">
+          <img class="clip-img-left" src="/assets/chain-1.jpg" />
+        </div>
+        <div class="img-chain-wrapper-2">
+          <img class="clip-img-right" src="/assets/chain-2.jpg" />
+        </div >
+        <div class="img-chain-wrapper-3">
+          <img class="clip-img-left" src="/assets/chain-3.jpg" />
+        </div>
+      </div>
+
+      <div class="container container-80">
+        <div class="row main-font">
+          <div class="col-6">
+            <div class="row mb-5" style="margin-top:70px;">
+              <img src="/assets/fac-1.png" class="location-icon me-lg-5 me-3 ms-2" />
+              <img src="/assets/fac-2.png" class="location-icon me-lg-5 me-3" />
+              <img src="/assets/fac-3.png" class="location-icon me-lg-5 me-3" />
+              <img src="/assets/fac-4.png" class="location-icon" />
+            </div>
+          </div>
+          <div class="col-6">
+            <div style="width:500px;">
+              <h2 class="mb-2 ps-lg-5 customize-text" style="font-weight: 400;">PRIME LOCATION</h2>
+              <p class="ps-lg-5" style="font-size: larger; margin-bottom: 90px;">โครงการตั้งอยู่บนทำเลศักยภาพ การคมนาคมสะดวกสบาย ติดถนนใหญ่สายหลัก
+                ใกล้แหล่งชุมชน ตอบโจทย์ไลฟ์สไตล์ได้ทั้งครอบครัว
+                เหมาะกับการเป็นแหล่งที่อยู่อาศัยชั้นนำ</p>
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-between mt-5 mb-5">
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-end">
+              <h1 class="text-start customize-text mb-0">SUPERIOR</h2>
+                <h1 class="text-start customize-text mt-0 mb-1">DESIGN</h2>
+                  <p class="text-start fs-6 b-5">By <span class="fs-">KERATI</span></p>
+            </div>
+            <div class="row justify-content-start p-2">
+              <button type="button" class="btn btn-primary mt-0 customize-button">MORE DETAIL <i
+                  class="bi bi-caret-right-fill"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    </div>
+    <div class="bg-content5">
+      <h1 class="col-12 text-center p-0 m-0 mt-5">OUR PROJECT</h1>
+      <p class="col-12 text-center main-font p-0 m-0 fs-7 mb-5">โครงการของเรา</p>
+      <div class="project-image1 mb-3">
+        <div class="project-banner-right float-end">
+          <img src="/assets/main-text-logo-no-bg.png" class="p-0 me-2" height="25px" />
+          <p class="fs-7 p-0 m-0 text-nowrap">B A N G S A E N</p>
+        </div>
+      </div>
+      <div class="project-image2 mb-3">
+        <div class="project-banner-left float-start">
+          <img src="/assets/main-text-logo-no-bg.png" class="p-0 me-2" height="25px" />
+          <p class="fs-7 p-0 m-0 text-nowrap">G A R D E N</p>
+        </div>
+      </div>
+      <div class="project-image3">
+        <div class="project-banner-right float-end">
+          <img src="/assets/main-text-logo-no-bg.png" class="p-0 me-2" height="25px" />
+          <p class="fs-7 pt-0 m-0 text-nowrap">3 3</p>
+        </div>
+      </div>
+      <div class="container container-80">
+        <hr class="bottom mt-5">
+      </div>
+    </div>
+    <div class="container container-80">
+      <div>
+        <div class="main-font">
+          <h2 class="mt-5 mb-3">สำนักงานขาย</h1>
+            <p class="fs-6 fw-light m-0">บริษัท กีรติ เฮ้าส์ 2014 จำกัด</p>
+            <p class="fs-6 fw-light m-0">99/92 ถนน แสนสุข ตำบลแสนสุข อำเภอเมือง</p>
+            <p class="fs-6 fw-light mb-4">ชลบุรี จังหวัดชลบุรี 20130</p>
+        </div>
+        <hr class="bottom" id="contact-us">
+        <h2 class="mt-4 mb-3">Contact Us</h1>
+          <div class="col-12">
+            <p class="fs-6 m-0"><i class="bi bi-envelope fs-2 me-3"
+                style="vertical-align: middle;"></i>kerati.bangsaen@gmail.com</p>
+          </div>
+          <p class="fs-6 m-0"><i class="bi bi-telephone fs-2 me-3" style="vertical-align: middle;"></i>081-409-8765
+          </p>
+          <div class="row mt-3">
+            <div class="col-2 col-md-1">
+              <img src="/assets/fb-logo.png" height="auto" width="100%" class="p-0 m-0" />
+            </div>
+            <div class="col-2 col-md-1">
+              <img src="/assets/ig-logo.png" height="auto" width="100%" class="p-0 m-0" />
+            </div>
+            <div class="col-2 col-md-1">
+              <img src="/assets/line-logo.png" height="auto" width="100%" class="p-0 m-0" />
+            </div>
+          </div>
+      </div>
+      <div class="space-bottom"></div>
+    </div>
+
+
+  </div>
+
+  <!-- mobile -->
+  <div class="container-fluid show-mobile">
     <div class="bg-content3">
       <div class="container container-80">
         <div class="space"></div>
@@ -221,7 +411,7 @@
             </div>
           </div>
       </div>
-      <div class="space-bottom"></div> 
+      <div class="space-bottom"></div>
     </div>
 
 
