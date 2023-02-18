@@ -1,3 +1,13 @@
+.card-detail {
+  border: 1px solid rgb(237, 237, 237);
+  background-color: white;
+  height: 500px;
+}
+.card {
+  border-radius: 0%;
+  border: 1px solid rgb(237, 237, 237);
+}
+
 .bg-blue {
   background-color: #0b436b;
 }
@@ -5,6 +15,18 @@
 .bg-white {
   background-color: white;
   opacity: 100%;
+}
+
+.container-60 {
+  width:100%;
+}
+
+.bg-card1 {
+  background-color: white;
+  background-image: url('/assets-project/main.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .white {
@@ -45,7 +67,7 @@
  }
 
  .navbar {
-  background-color: transparent;
+  background-color: white;
  }
 
 .nav-bar-logo {
@@ -86,11 +108,11 @@
 
 .img-header {
   background-color: white;
-  background-image: url('/assets/main-img.jpg');
+  background-image: url('/assets-project/header.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .bg-map {
@@ -108,12 +130,16 @@
   background-repeat: no-repeat;
   background-size: 1400px 2500px;
   background-position: top;
-  background-position-y: -300px;
+  background-position-y: 0px;
   /* max-width: 400px; */
 }
 
 #map {
   height: 100%;
+}
+
+.bg-facility {
+  background-color: white;
 }
 
 .bg-content4 {
@@ -273,133 +299,13 @@
   }
 }
 
-
-@media screen and (max-width: 577px) {
-  .img-header {
-    background-color: white;
-    background-image: url('/assets/main-img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    min-height: 600px;
-  }
-  .navbar {
-    background-color: #0b436b;
-   }
-  .show-mobile {
-    display: block;
-  }
-  .hide-mobile {
-    display: none;
-  }
-  .space {
-    height: 155px;
-  }
-  .fixed-top {
-    position: sticky;
-   }
-  .bg-content3 {
-    background-color: white;
-    background-image: url('/assets/bg-content.png');
-    background-repeat: no-repeat;
-    background-size: 100% 700px; 
-    background-position: 0% 0%;
-    /* max-width: 400px; */
-  }
-  .bg-content4 {
-    background-color: white;
-    background-image: url('/assets/bg-content4.png');
-    background-repeat: no-repeat;
-    background-size: 100% 700px; 
-    background-position: -100px -10px;
-    height: 500px;
-    /* max-width: 400px; */
-  }
-  .bg-content5 {
-    background-color: white;
-    background-image: url('/assets/bg-content5.png');
-    background-repeat: no-repeat;
-    background-size: 100% 700px; 
-    background-position: 0 10px; 
-    height: 550px;
-    /* max-width: 400px; */
-  }
-
-  .project-image1 {
-    height: 100px;
-    background-color: white;
-    background-image: url('/assets/project-1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .project-image2 {
-    height: 100px;
-    background-color: white;
-    background-image: url('/assets/project-2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .project-image3 {
-    height: 100px;
-    background-color: white;
-    background-image: url('/assets/project-3.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-
-  .fs-7 {
-    font-size: small;
-    letter-spacing: 1px;
-  }
-  .navbar-nav li a {
-    color: white;
-    font-size: small;
-    font-weight: 300;
+@media screen and (min-width: 1399px) {
+  .container-60 {
+    width: 60%;
   }
   
-  .navbar-nav li a:hover {
-    color: #6688A1;
-  }
-  
-  .navbar-nav .nav-link.active {
-    color: gray;
-  }
-
-  .nav-bar-logo {
-    height: 30px;
-    width: 100px;
-  }
-  .navbar-dark.navbar-toggler span {
-    font-size: medium;
-  }
-  .container-80 {
-    width:80%;
-  }
-  .location-icon {
-    width: 35px;
-    height: 35px;
-    padding: 0;
-  }
-  .main-content-logo {
-    height: 45px;
-    width: 160px;
-  }
-  .customize-text {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
-  }
-  .foot-font {
-    font-size:13px; 
-    letter-spacing: 2px; 
-    font-weight: 200;
-  }
 }
+
 
 
 .space-bottom {
