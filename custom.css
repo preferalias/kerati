@@ -21,6 +21,11 @@
   font-size: medium;
   letter-spacing: 1px;
 }
+.foot-font {
+  font-size:20px; 
+  letter-spacing: 2px; 
+  font-weight: 200;
+}
 
 .navbar-nav li a {
   color: #0b436b;
@@ -70,6 +75,10 @@
   height: 1700px;
 }
 
+.text-intro {
+  width:80%;
+}
+
 .main-content-logo {
   height: 90px;
   width: 340px;
@@ -103,41 +112,52 @@
   /* max-width: 400px; */
 }
 
+#map {
+  height: 100%;
+}
+
 .bg-content4 {
+  background-color: white;
+  background-image: url('/assets/bg-content.png');
+  background-repeat: no-repeat;
+  background-size: 1400px 2500px;
+  background-position: top;
+  background-position-y: -300px;
+}
+.bg-content5 {
   background-color: white;
   background-image: url('/assets/bg-content4.png');
   background-repeat: no-repeat;
-  background-size: 700px 1000px;
+  background-size: 1400px 2500px;
   background-position: top;
+  background-position-y: -300px;
   /* max-width: 400px; */
 }
-.bg-content4 {
-  background-color: white;
-  background-image: url('/assets/bg-content4.png');
-  background-repeat: no-repeat;
-  background-size: 700px 1000px;
-  background-position: top;
-  /* max-width: 400px; */
+.social-logo {
+  width: 62px;
+  height: 39px;
+  margin-left: 10px;
+  margin-top: 0px;
 }
 
 .project-image1 {
-  background-color: black;
-  height: 100px;
+  height: 300px;
   background-image: url('/assets/project-1.png');
   background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .project-image2 {
-  background-color: black;
-  height: 100px;
+  height: 300px;
   background-image: url('/assets/project-2.png');
   background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .project-image3 {
-  background-color: black;
-  height: 100px;
+  height: 300px;
   background-image: url('/assets/project-3.png');
   background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .project-banner-right {
@@ -201,6 +221,59 @@
   display: block;
 }
 
+.compose-image {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .project-image1 {
+    height: 100px;
+  }
+  .project-image2 {
+    height: 100px;
+  }
+  .project-image3 {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .project-image1 {
+    height: 120px;
+  }
+  .project-image2 {
+    height: 120px;
+  }
+  .project-image3 {
+    height: 120px;
+  }
+
+  .text-intro {
+    width: 100%;
+    border:none;
+  }
+  .remove-border {
+    border: none !important;
+  }
+  .logo-footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .project-image1 {
+    height: 150px;
+  }
+  .project-image2 {
+    height: 150px;
+  }
+  .project-image3 {
+    height: 150px;
+  }
+}
+
+
 @media screen and (max-width: 577px) {
   .img-header {
     background-color: white;
@@ -253,6 +326,7 @@
   }
 
   .project-image1 {
+    height: 100px;
     background-color: white;
     background-image: url('/assets/project-1.png');
     background-repeat: no-repeat;
@@ -261,6 +335,7 @@
   }
 
   .project-image2 {
+    height: 100px;
     background-color: white;
     background-image: url('/assets/project-2.png');
     background-repeat: no-repeat;
@@ -269,6 +344,7 @@
   }
 
   .project-image3 {
+    height: 100px;
     background-color: white;
     background-image: url('/assets/project-3.png');
     background-repeat: no-repeat;
@@ -317,6 +393,11 @@
     font-size: 30px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
+  }
+  .foot-font {
+    font-size:13px; 
+    letter-spacing: 2px; 
+    font-weight: 200;
   }
 }
 
