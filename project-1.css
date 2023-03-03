@@ -1,7 +1,7 @@
 .card-detail {
   border: 1px solid rgb(237, 237, 237);
   background-color: white;
-  height: 500px;
+  height: 100%;
 }
 .card {
   border-radius: 0%;
@@ -9,7 +9,8 @@
 }
 
 .bg-blue {
-  background-color: #0b436b;
+  background-color: white;
+  border-top: 1px solid rgb(237, 237, 237);
 }
 
 .bg-white {
@@ -27,6 +28,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  min-height: 500px;
+}
+
+.bg-card1-detail {
+  min-width: 200px;
 }
 
 .white {

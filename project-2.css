@@ -1,7 +1,7 @@
 .card-detail {
   border: 1px solid rgb(237, 237, 237);
   background-color: white;
-  height: 500px;
+  height: 100% 
 }
 .card {
   border-radius: 0%;
@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  min-height: 400px;
 }
 
 .white {

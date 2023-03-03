@@ -358,8 +358,8 @@
   }
   .navbar-nav li a {
     color: white;
-    font-size: small;
-    font-weight: 300;
+    /* font-size: small;
+    font-weight: 300; */
   }
   
   .navbar-nav li a:hover {
@@ -371,12 +371,18 @@
   }
 
   .nav-bar-logo {
+    height: 50px;
+    width: 170px;
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+  }
+  /* .nav-bar-logo {
     height: 30px;
     width: 100px;
-  }
-  .navbar-dark.navbar-toggler span {
+  } */
+  /* .navbar-dark.navbar-toggler span {
     font-size: medium;
-  }
+  } */
   .container-80 {
     width:80%;
   }
