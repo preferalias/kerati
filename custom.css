@@ -2,6 +2,14 @@
   background-color: #0b436b;
 }
 
+a, u {
+  text-decoration: none !important;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 .bg-white {
   background-color: white;
   opacity: 100%;
