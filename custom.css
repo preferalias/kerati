@@ -182,6 +182,17 @@
   align-items: center;
 }
 
+.see-project-left {
+  color: #0b436b;
+  background-color: white;
+  opacity: 80%;
+  padding: 2px;
+  padding-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-content {
   width: 60%;
   margin: auto;
@@ -471,4 +482,19 @@ hr.bottom {
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
   background-color: #c2b7a3 !important;
   border: none;
+}
+
+.project-hover {
+  opacity: 100%;
+}
+
+@media (hover: hover) {
+  .project-hover {
+    opacity: 60%;
+  }
+  .project-hover:hover {
+    opacity: 100%;
+    transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+  }
 }
